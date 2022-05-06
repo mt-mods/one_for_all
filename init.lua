@@ -5,7 +5,7 @@
 one_for_all = {}
 local mod = one_for_all
 local mod_name = 'one_for_all'
-mod.version = '20190923'
+mod.version = '20220505'
 mod.path = minetest.get_modpath(minetest.get_current_modname())
 mod.world = minetest.get_worldpath()
 
