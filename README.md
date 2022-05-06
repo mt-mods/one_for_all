@@ -6,6 +6,6 @@ ideally forcing everyone to work together.
 
 The source is available on github.
 
-Code: LGPL2, Textures: CC0
+Code: LGPL2
 
-Mod dependencies: default
+Mod dependencies: none
