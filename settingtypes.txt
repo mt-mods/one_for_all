@@ -1,0 +1,3 @@
+one_for_all.kick (Kick all players) bool false
+one_for_all.perma_kill (Permanently kick all players) bool false
+one_for_all.chat_join_msg (Inform new players of one_for_all) true

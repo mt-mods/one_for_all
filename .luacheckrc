@@ -1,22 +1,20 @@
-unused_args = false
 allow_defined_top = true
 
 exclude_files = {".luacheckrc"}
 
 globals = {
-    "minetest", "core",
+	"one_for_all",
 }
 
 read_globals = {
-    string = {fields = {"split"}},
-    table = {fields = {"copy", "getn"}},
+	string = {fields = {"split"}},
+	table = {fields = {"copy", "getn"}},
 
-    --luac
-    "math", "table",
-
-    -- Builtin
-    "vector", "ItemStack", "dump", "DIR_DELIM", "VoxelArea", "Settings", "PcgRandom", "VoxelManip", "PseudoRandom",
-
-    --mod produced
-    "one_for_all",
+	-- Luanti
+	"minetest", "core",
+	"vector", "ItemStack",
+	"dump", "DIR_DELIM",
+	"VoxelArea", "Settings",
+	"PcgRandom", "VoxelManip",
+	"PseudoRandom",
 }
